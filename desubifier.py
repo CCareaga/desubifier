@@ -15,6 +15,8 @@ while inp != "n":
     highest = [0, -10000]
     attempts = 0
 
+    print("\n")
+
     while attempts < 100:
         solution = solver.solve(cipher_txt)
 

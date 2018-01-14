@@ -44,7 +44,10 @@ class SubstitutionSolver():
     def convertChar(self, c, key):
         if c == ' ':
             return ' '
-        return key[self.alphabet.index(c)]
+        elif c.isalpha():
+            return key[self.alphabet.index(c)]
+        else:
+            return ''
 
     def convertString(self, txt, key):
         txt_arr = list(txt) 
@@ -69,7 +72,6 @@ class SubstitutionSolver():
         key[a], key[b] = key[b], key[a]
 
     def solve(self, cipher):
-        
         cipher = cipher.lower()
 
         running = 1
