@@ -20,7 +20,7 @@ a masoymasilian if a bydily ter surning lettyy inse soyerymf -> -254.879492284
 a mathematician is a device for turning coffee into theorems -> -209.259607393
 ```
 
-Typically, the algorithm will run multiple times, only displaying it's new highest result. If the a higher result is not found after 100 tries the program will ask if you want to try again.
+Typically, the algorithm will run multiple times, only displaying its new highest result. If the higher result is not found after 100 attempts the program will ask if you want to try again.
 
 ### Resources
 ---
